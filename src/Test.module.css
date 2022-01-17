@@ -1,0 +1,117 @@
+.main {
+    border: 1px solid #c8c8c8;
+    margin: 20px;
+    padding: 20px;
+}
+
+.main > h2 {
+    color: #474747;
+    font-weight: 600;
+}
+
+.questionWrapper {
+    margin-top: 30px;
+}
+
+.questionWrapper > fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.questionText {
+    margin-bottom: 20px;
+}
+
+.field {
+    margin-bottom: 10px;
+}
+
+.field > label {
+    display: block;
+    padding: 10px;
+    border-radius: 3px;
+    border: 2px solid #e4e4e4;
+}
+
+.field > label:hover {
+    cursor: pointer;
+    border: 2px solid #0075b4;
+}
+
+.field > label > input {
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.btnSubmit {
+    border: none;
+    outline: none;
+
+    padding: 13px 23px;
+    border-radius: 3px;
+    background: #0075b4;
+    color: #fcfcfc;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btnSubmit:hover {
+    background: #065683;
+}
+
+.btnSubmit:active {
+    background: #065683;
+    box-shadow: inset 0 0 5px 0 #252525;
+}
+
+.btnSubmit:disabled {
+    cursor: default;
+    background-color: #c8c8c8;
+}
+
+.btnShowAnswer {
+    border: none;
+    outline: none;
+
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    background: transparent;
+    color: #0075b4;
+    cursor: pointer;
+}
+
+.btnShowAnswer:hover {
+    border: 1px solid #0075b4;
+}
+
+.btnShowAnswer:active {
+    border-color: #c8c8c8;
+}
+
+.btnShowAnswer:disabled {
+    border: 1px solid #c8c8c8;
+    color: #c8c8c8;
+    cursor: default;
+}
+
+.icon {
+    margin-left: 15px;
+    height: 15px;
+    width: 15px;
+}
+
+.score {
+    position:fixed;
+    height: 20px;
+    width: 100%;
+    top: 0;
+    text-align: center;
+}
